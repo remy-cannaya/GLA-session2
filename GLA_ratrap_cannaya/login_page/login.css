@@ -1,0 +1,75 @@
+body{
+	 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	 color:black;
+	 font-size:1.4em ;
+  	 margin:0;
+    padding:0;
+    background: url("fond_ecran_login.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+#container{
+    width:500px;
+    height: 400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+
+/* Bordered form */
+form {
+    width:100%;
+    padding: 80px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 100%;
+    text-align:center ;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+	
+
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #4682B4	;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #4682B4	;
+    border: 1px solid #4682B4	;
+}
+p,
+label {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color:black;
+	font-size:1.4em ;
+	padding-top: 15px;
+}
+
+input {
+    margin: .4rem;
+}
+
+
